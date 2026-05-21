@@ -1,0 +1,10 @@
+BC5-12 - ComboBox de países
+
+Se abre una ventana con un desplegable de países con validacion si no se ha selecionado.
+
+Creo comboBox con distintos paises, para elegir uno. Creo tambien un boton que tendra un setOnAction que validara si el campo
+del comboBox es null o si has selecionado un pais, si no lo has hecho saldra un mensaje Alert.AlertType.WARNING, pidiendote
+que seleciones una copion. Cuando ya la hayas selecionado y pulses el boton saldra un texto con el pais elegido usando el 
+comboBox.getValue() para hallar el valor de la opcion y setText del label para sacar el mensaje.
+
+Para que este todo en orden se usa vbox sobre todos los elementos de ls scene creada para la ventana asignada.
